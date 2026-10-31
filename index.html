@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>switch2jbnews - Switch 2 Jailbreak Tracker</title>
+    <style>
+        :root {
+            --bg-color: #0b0c10;
+            --container-bg: #1f2833;
+            --accent-color: #e50914;
+            --text-color: #c5c6c7;
+            --heading-color: #ffffff;
+            --quote-bg: #151a21;
+            --border-color: #45a29e;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--container-bg);
+            border-bottom: 3px solid var(--accent-color);
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            color: var(--heading-color);
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+
+        header h1 span {
+            color: var(--accent-color);
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background-color: var(--container-bg);
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        h2 {
+            color: var(--heading-color);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+
+        h3 {
+            color: var(--heading-color);
+            margin-top: 1.5rem;
+        }
+
+        a {
+            color: var(--border-color);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: var(--heading-color);
+            text-decoration: underline;
+        }
+
+        .source-link {
+            font-style: italic;
+            font-size: 0.9rem;
+            display: block;
+            margin-bottom: 1.5rem;
+        }
+
+        blockquote {
+            background-color: var(--quote-bg);
+            border-left: 4px solid var(--accent-color);
+            margin: 1.5rem 0;
+            padding: 1rem 1.5rem;
+            border-radius: 0 8px 8px 0;
+        }
+
+        blockquote p {
+            margin: 0 0 1rem 0;
+            font-style: italic;
+        }
+
+        blockquote p:last-child {
+            margin-bottom: 0;
+        }
+
+        blockquote cite {
+            display: block;
+            text-align: right;
+            font-weight: bold;
+            color: var(--border-color);
+        }
+
+        .media-container {
+            text-align: center;
+            margin: 1.5rem 0;
+        }
+
+        .media-container img, .media-container video {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            padding: 0.6rem 1.2rem;
+            border-radius: 4px;
+            font-weight: bold;
+            text-decoration: none;
+            margin-top: 0.5rem;
+            transition: background 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #b30710;
+            text-decoration: none;
+            color: #fff;
+        }
+nav {
+            background-color: #151a21;
+            border-top: 1px solid rgba(255,255,255,0.05);
+            border-bottom: 3px solid var(--accent-color);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            padding: 0.75rem 1rem;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .nav-links a {
+            color: var(--text-color);
+            font-weight: 600;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: color 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--heading-color);
+            text-decoration: none;
+        }
+
+        .nav-separator {
+            color: rgba(255, 255, 255, 0.15);
+            font-weight: 300;
+            user-select: none;
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.85rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>switch2<span>jbnews</span></h1>
+        <p>Tracking the latest milestones in Nintendo Switch 2 Homebrew & Jailbreaking</p>
+    </header>
+<nav>
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <span class="nav-separator">|</span>
+                <a href="#latest-news">Latest News</a>
+                <span class="nav-separator">|</span>
+                <a href="#browse-news">Browse News</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Emulation Status Card -->
+        <section>
+            <h2>Emulation is Here!</h2>
+            <p><strong>Eglantine</strong> has emerged as the first working Switch 2 emulator. Development is currently in its <strong>very early stages</strong>, utilizing hyper-targeted builds tailored for specific baseline titles.</p>
+        </section>
+
+        <!-- Main History / Timeline Section -->
+        <section>
+            <h2>History & Breakthroughs</h2>
+            <a class="source-link" href="https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/" target="_blank">Primary Source: pepsipu on ns2jb</a>
+
+            <h3>Beginnings</h3>
+            <p>Shortly after Nintendo released the Switch 2 in June 2025, crafty community members discovered a game save exploit. While it functioned well as a proof of concept, it fell short of a full hack. Months of relative quiet followed, punctuated by skeptical community forum threads claiming the console would never be breached.</p>
+
+            <h3>Getting Closer</h3>
+            <p>In July 2026, developer Gezine—widely recognized for creating the PS5 Y2JB (YouTube Jailbreak)—shared a breakthrough on X showcasing a custom system error code handler.</p>
+            
+            <blockquote>
+                <p>"I created a Switch 1/2 userland exploit that is not a WebKit or save exploit."</p>
+                <p>"But we already have a userland exploit from day one"</p>
+                <p>"The difference is that the existing userland exploit is based on the save exploit, which can't be used without save transfer using the Nintendo Online Service, which forces you to be on the latest firmware."</p>
+                <p>"So even if a kexploit or some software-based privilege escalation is found, 99% of people can't use the save exploit. But this one works without any restrictions and works on all firmware."</p>
+                <p>"Why not hack WebKit? Switch 2 WebKit has ARM PAC (Pointer Authentication Code), which prevents ROP code execution. So I avoided it, as there was an easier way to exploit it."</p>
+                <cite>— Gezine</cite>
+            </blockquote>
+
+            <div class="media-container">
+                <!-- Userland proof image placeholder -->
+                <img src="https://github.com/user-attachments/assets/0a259a2f-7ef2-40c1-9ccf-b8b0f0f384e8" alt="Gezine Custom Error Code Proof">
+            </div>
+
+            <h3>ns2jb Exploit</h3>
+            <p>The homebrew floodgates blew open on October 22, 2026, when Sammy Hajhamid (commonly known as <strong>pepsipu</strong>) dropped a software modification framework called <strong>ns2jb</strong>. This tethered softmod requires user interaction via the software <em>SmileBASIC 4</em>, manual runtime inputs, and a custom NodeJS payload injector running via an external host interface device.</p>
+            <p>The jailbreak currently lacks coldboot persistence. To prove its structural validity, pepsipu published custom code patches injecting external community characters into <em>Mario Kart World</em>.</p>
+
+            <div class="media-container">
+                <!-- Video Link styling -->
+                <video controls poster="" width="100%">
+                    <source src="https://pepsipu.com/_astro/mario-kart-race-2-1080p.BwDXiEuM.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <br>
+                <a href="https://pepsipu.com/_astro/mario-kart-race-2-1080p.BwDXiEuM.mp4" class="btn" target="_blank">Watch Raw Gameplay Video</a>
+            </div>
+        </section>
+
+        <!-- Ecosystem Responses Section -->
+        <section>
+            <h2>Ecosystem Responses</h2>
+            
+            <h3>Nintendo</h3>
+            <p>Within 7 hours of public disclosure, Nintendo pulled <em>SmileBASIC 4</em> directly from the global eShop infrastructure. While early enthusiasts bypassed the delisting by navigating through the console's internal software update news channels to force an entitlement download, Nintendo has completely patched that avenue. They are aggressively engineering structural firmware revisions.</p>
+
+            <h3>Gezine</h3>
+            <p>Gathered insights and statements via developer notes on X:</p>
+            <blockquote>
+                <p>"Talked with this guy. Seems legit. I think it was too early to burn the exploit. But kudos to him."</p>
+                <p>"I think it's possible to make untethered switch 2 jailbreak. Similar to Y2JB at PS5. We will see..."</p>
+                <p>"Smallbasic4 is not strictly needed. So I wouldn't update to latest firmware to get that game."</p>
+                <p>"People seem to be confused about this. I meant that there’s an exploit based on a physical game cartridge. So you don’t have to update the firmware to use the eShop."</p>
+                <p>"I am pretty sure you don't have to worry about 'scalping exploit game' As there is something like M*g switch."</p>
+                <p>"Do people understand you can't transfer exploit save file without Nintendo online service? You need modded switch 1 too. You can't use artemis engine game to exploit without existing different exploit. Only buy save exploit based games if you know what you are doing."</p>
+                <p>"Bad news. I got email from Nintendo... 💀"</p>
+                <cite>— Gezine Notes</cite>
+            </blockquote>
+        </section>
+
+        <!-- Latest Frontiers Section -->
+        <section>
+            <h2>WebKit Frontiers</h2>
+            <p>Following private beta implementations, pepsipu has successfully backported the core <strong>ns2jb</strong> logic payload over to the console's integrated WebKit browser subsystem, rendering it widely accessible without reliance on the original target software.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>switch2jbnews is an archival news aggregation layout. All product names, logos, and brands are property of their respective owners.</p>
